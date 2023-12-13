@@ -87,11 +87,11 @@
     </section>
 
     <section class="skills pb-5" id="scrollspyHeading2">
-      <h1 class="text-center">Ski<span>lls</span></h1>
+      <h1 class="text-center pb-4">Skills <span>I Know</span></h1>
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-            <div class="card bg-dark text-white">
+            <div class="card text-white slide-left">
               <div class="card-body">
                 <h4 class="card-title text-center">Frontend</h4>
                 <p class="card-text">
@@ -118,7 +118,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-            <div class="card bg-dark text-white">
+            <div class="card text-white slide-top">
               <div class="card-body">
                 <h4 class="card-title text-center">Backend</h4>
                 <p class="card-text">
@@ -144,7 +144,7 @@
             </div>
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-            <div class="card bg-dark text-white">
+            <div class="card text-white slide-right">
               <div class="card-body">
                 <h4 class="card-title text-center">Framework/Libraries</h4>
                 <p class="card-text">
@@ -177,7 +177,8 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="jquery/jquery.fadethis.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
@@ -192,6 +193,13 @@
         loop: true,
         loopCount: Infinity
       });
+
+
+      //  scroll effect start from here /
+      $(document).ready(function() {
+      $(window).fadeThis();
+      });
+      // scroll effect end from here //
     </script>
   </body>
 </html>
