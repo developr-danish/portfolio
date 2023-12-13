@@ -44,16 +44,18 @@ body{
 #content h2{
     font-size: 120px;
 }
-
+#content p{
+    color: rgb(149, 143, 143);
+}
 span{
     color: rgb(43, 43, 186);
 }
 .social{
     display: flex;
-    margin: 30px 20px;
+    margin: 30px 0px;
     gap: 20px;
 }
-.twitter , .instagram , .linkdin{
+.twitter , .instagram , .linkdin , .github{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +75,7 @@ span{
 ::selection{
     color: lightpink;
 }
-.twitter i , .instagram , .linkdin{
+.twitter i , .instagram , .linkdin , .github{
     font-size: 25px;
     transition: 0.5s ease-in-out;
 }
@@ -81,6 +83,9 @@ span{
     background-color: #fff;
 }
 .linkdin:hover{
+    background-color: #fff;
+}
+.github:hover{
     background-color: #fff;
 }
 .instagram:hover{
@@ -95,7 +100,9 @@ span{
 .instagram:hover i{
     color: RGB(251, 173, 80);
 }
-
+.github:hover i{
+    color: RGB(64, 120, 192);
+}
 .bg{
     overflow: hidden;
     width: 500px;
