@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PortFolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="navbar">
+        <nav
+            class="navbar navbar-expand-sm navbar-dark"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="Assets/logo.png" alt=""></a>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-center" id="collapsibleNavId">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page"
+                                >Home
+                                <span class="visually-hidden">(current)</span></a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+  
+    <section class="container" id="content">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+          <h1>
+            Hii.. I'm a<br />
+            <h2><span class="sec-text"></span></h2>
+          </h1>
+          <div class="social">
+            <div class="twitter"><a href=""><i class="fa fa-twitter"></i></a></div>
+            <div class="instagram"><a href=""><i class="fa fa-instagram"></i></a></div>
+            <div class="linkdin"><a href=""><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <button class="" type="file">Download CV</button>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+            <div class="bg">
+                <img src="Assets/bg1.png" alt="">
+            </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".sec-text", {
+        strings: ["Developer", "Designer" , "Youtuber"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+        loopCount: Infinity
+      });
+    </script>
+  </body>
+</html>

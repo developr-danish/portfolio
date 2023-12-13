@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "josefin Sans";
+}
+body{
+    background-color: black;
+}
+/* navbar part start from here */
+#navbar img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+#navbar a{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: 0.7s;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#navbar a:hover{
+    color: rgb(43, 43, 186);
+}
+.active{
+    color: rgb(43, 43, 186) !important;
+}
+/* navbar part end from here */
+
+/* Content part start from here */
+#content{
+    color: white;
+    overflow: hidden;
+}
+#content h1{
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+#content h2{
+    font-size: 120px;
+}
+
+span{
+    color: rgb(43, 43, 186);
+}
+.social{
+    display: flex;
+    margin: 30px 20px;
+    gap: 20px;
+}
+.twitter , .instagram , .linkdin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+::selection{
+    color: lightpink;
+}
+.twitter i , .instagram , .linkdin{
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+.twitter:hover{
+    background-color: #fff;
+}
+.linkdin:hover{
+    background-color: #fff;
+}
+.instagram:hover{
+    background-color: #fff;
+}
+.twitter:hover i{
+    color: blue;
+}
+.linkdin:hover i{
+    color: #0077b5;
+}
+.instagram:hover i{
+    color: RGB(251, 173, 80);
+}
+
+.bg{
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 30% 70% 67% 33% / 47% 54% 46% 53% ;
+    background: linear-gradient(260deg, pink  ,blue  );
+}
+.bg img{
+    width: 400px;
+    height: 500px;
+    object-fit:cover;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 186);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* Content part end from here */
